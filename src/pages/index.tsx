@@ -6,12 +6,14 @@ export default function Home() {
   return (
     <Container>
       <Topbar />
-      <Key content="Q" />
-      <Key content="W" />
-      <Key content="E" />
-      <Key content="R" />
-      <Key content="T" />
-      <Key content="Y" />
+      <div style={{ display: 'flex' }}>
+        <Key content="Q" />
+        <Key content="W" />
+        <Key content="E" />
+        <Key content="R" />
+        <Key content="T" />
+        <Key content="Y" />
+      </div>
     </Container>
   )
 }
