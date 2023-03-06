@@ -1,4 +1,8 @@
 export const theme = {
+  grid: {
+    container: '130rem',
+    gutter: '3.2rem'
+  },
   colors: {
     bg: '#302C42',
     secondary: '#A093DB',
