@@ -10,7 +10,7 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <ThemeProvider theme={theme}>
         <Head>
-          <title>Adivinhe o Prompt</title>
+          <title>prompt!</title>
           <link rel="shortcut icon" href="/img/logop.png" />
           <link rel="apple-touch-icon" href="/img/logop.png" />
           <link rel="manifest" href="/manifest.json" />
