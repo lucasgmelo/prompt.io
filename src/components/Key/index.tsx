@@ -7,5 +7,9 @@ interface KeyT {
 }
 
 export const Key: FC<KeyT> = ({ content, disabled = false }) => {
-  return <S.Button disabled={disabled}>{content}</S.Button>
+  return (
+    <S.Button disabled={disabled} special={content.length > 1}>
+      {content}
+    </S.Button>
+  )
 }

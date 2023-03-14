@@ -14,9 +14,10 @@ export const Container = styled.div`
 
 export const Text = styled.h1`
   font-weight: 500;
-  font-size: ${({ theme }) => theme.fonts.sizes.large};
+  font-size: 1.6rem;
 
   color: #ffffff;
+  text-align: center;
 
   margin: 0 80px;
 `
