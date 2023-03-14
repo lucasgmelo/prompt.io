@@ -11,8 +11,10 @@ export const Container = styled.div`
 
 export const Image = styled.div<{ src: string }>`
   background-size: cover;
-  min-height: 250px;
+
+  height: 225px;
   min-width: 100%;
+
   background-image: ${({ src }) => `url(${src})`};
   background-size: cover;
   background-position: center;

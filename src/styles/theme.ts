@@ -9,7 +9,9 @@ export const theme = {
     bgLight: '#817C99',
     white: '#fff',
     grey: '#E3E3E3',
-    black: '#484C4F'
+    black: '#484C4F',
+    yellow: '#EEC272',
+    green: '#3AA394'
   },
   fonts: {
     family:

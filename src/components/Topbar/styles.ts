@@ -5,7 +5,7 @@ export const Container = styled.div`
   align-items: center;
 
   margin: 0 auto;
-  padding: 32px 0;
+  padding: 16px 0;
 
   & > svg {
     height: 16px !important;
