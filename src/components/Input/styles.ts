@@ -17,6 +17,11 @@ export const Input = styled.input<{ color?: string }>`
   color: white;
 
   outline: none;
+
+  @media (max-width: 600px) {
+    width: 24px;
+    height: 32px;
+  }
 `
 
 export const Space = styled.p`
@@ -35,4 +40,9 @@ export const Disabled = styled.div`
   opacity: 0.4;
 
   margin: 2px;
+
+  @media (max-width: 600px) {
+    width: 24px;
+    height: 32px;
+  }
 `
